@@ -56,6 +56,7 @@ function App() {
           {/* target="blank"의 경우 새로운 탭에서 화면을 띄우는 것을 의미함 */}
 
           <a href='https://ww.w3schools.com/' target="blank">
+          HTML / css 학습 사이트
           </a>
           
         </div>
