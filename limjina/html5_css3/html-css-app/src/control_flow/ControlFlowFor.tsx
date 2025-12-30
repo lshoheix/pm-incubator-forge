@@ -1,26 +1,19 @@
-export const ControlFlowIf = () => {
-    let x = 10
-    let result;
+export const ControlFlowFor = () => {
+    let loopResultArray = []
 
-    if (x > 5) {
-        result = "x는 5보다 큽니다."
-    } else {
-        result = "x는 5보다 작습니다."
+    for (let i = 1; 1 < 3; i++) {
+        loopResultArray.push(i)
     }
-
-    let ternaryResult = x > 5 ? "x는 5보다 큽니다." : "x는 5보다 작습니다."
 
     return (
         <div>
-            <h3>javascript 제어문 (if)</h3>
+            <h3>javascript 제어문 (for)</h3>
 
             <pre>{
                 `
-x = ${x}                          // 10
-result = ${result}                // x는 5보다 큽니다.
-ternaryResult = ${ternaryResult}
+loopResultArray = ${loopResultArray}                
              `
             }</pre>
         </div>
     )   
-            }
+}
