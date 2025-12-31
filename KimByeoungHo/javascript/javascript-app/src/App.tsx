@@ -13,6 +13,7 @@ import {MapExample} from './Map/MapExample'
 import {MapReduceExample} from './Map/MapReduceExample'
 import { MapFilterExample } from './Map/MapFilterExample'
 import { ArraySliceExample } from './Array/ArraySliceExample'
+import { ArraySpliceExample } from './Array/ArraySpliceExample'
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
         <MapReduceExample/>
         <MapFilterExample/>
         <ArraySliceExample/>
+        <ArraySpliceExample/>
       </div>
     </>
   )
