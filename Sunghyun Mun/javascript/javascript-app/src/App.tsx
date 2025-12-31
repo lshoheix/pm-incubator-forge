@@ -9,6 +9,8 @@ import { ControlFlowFor } from './control_flow/ControlFlowFor'
 import { ControlFlowForSummation } from './control_flow/ControlFlowForSummation'
 import { ControlFlowForSummationExample } from './control_flow/ControlFlowForSummationExample'
 import { SecondProblem } from './problem/SecondProblem'
+import { MapExample } from './map/MapExample'
+import { MapReduceExample } from './map/MapReduceExample'
 
 
 // 실행 방법: npm run dev
@@ -38,6 +40,8 @@ function App() {
         <ControlFlowForSummation/>
         <ControlFlowForSummationExample/>
         <SecondProblem/>
+        <MapExample/>
+        <MapReduceExample/>
       </div>
     </>
   )
